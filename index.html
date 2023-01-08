@@ -18,11 +18,13 @@
     <header>
       <div class="container">
         <nav>
-          <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Me</a></li>
+          <ul id="sidemenu">
+            <li><a href="#yee">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
           </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
         </nav>
         <div class="header-text">
           <p>Trial Run!!, Front-End</p>
@@ -33,7 +35,7 @@
 
     <main>
       <!-- -------------------------About------------------------------------ -->
-      <div class="about">
+      <div class="about" id="yee">
         <div class="container">
           <div class="row">
             <div class="col-1">
@@ -231,6 +233,13 @@
       </div>
     </main>
 
-    <footer></footer>
+    <!-- ---------------------footer/copyright secction----------------------------- -->
+    <footer>
+      <div class="copyright">
+        <p>
+          Copyright &#169; Izaiah <i class="fa-solid fa-poo"></i>. Made 2023
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
